@@ -1,0 +1,40 @@
+.event {
+  
+ width:300px;
+ height:250px;
+ border-radius: 20px;
+ padding-top:100px;
+ padding-left:50px;
+ margin:20px;
+ background-size:cover;
+ background-position: center;
+}
+
+.event h3 {
+  color:white;
+  font-size:30px;
+}
+
+.event p {
+  color:white;
+  font-size:20px;
+}
+
+.event button {
+  background-color: white;
+  border-radius:10px;
+  padding:15px 50px;
+}
+
+#allEvents {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.event h4 {
+  color:white;
+  background-color: black;
+  padding:10px;
+  font-size: 20px;
+  display:none;
+}
